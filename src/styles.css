@@ -1,0 +1,18 @@
+* {
+    --main-blue: #0f4f85;
+    --blue-dark: #030f1f;
+    --main-gray: #121318;
+    --main-white: #b2bfc9;
+    --sub-white: #526371;
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-style: normal;
+    color: var(--main-white);
+    background-color: var(--main-gray);
+}
+
+.subtle-text {
+    color: var(--sub-white);
+}
