@@ -1,5 +1,5 @@
 const CONFIG = {
-    ramp: " .:-=+*#%@",   // sparse -> dense; the field value picks the index
+    ramp: " ⢀⡄⢋⡟⣏⡷⣿",   // sparse -> dense; the field value picks the index
     fontSize: 15,         // px; bigger = coarser grid = fewer cells = faster
     lineHeight: 1.0,      // row spacing as a multiple of fontSize
 
