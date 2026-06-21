@@ -1,4 +1,6 @@
 :root {
+    --bg: #121318;
+    --blob: #0f4f85;
     --main-blue: #0f4f85;
     --blue-dark: #030f1f;
     --main-gray: #121318;
@@ -27,9 +29,10 @@ body {
 #blob {
     position: fixed;
     inset: 0;
+    width: 100%;
+    height: 100%;
     z-index: 0;
-    pointer-events: none; /* uninteractable */
-    display: block;
+    pointer-events: none;
 }
 
 .hero {
@@ -41,13 +44,6 @@ body {
     text-align: center;
     padding: 2rem;
 }
-
-/*.hero h1 {*/
-/*    font-size: clamp(2.5rem, 9vw, 6rem);*/
-/*    font-weight: 600;*/
-/*    letter-spacing: -0.02em;*/
-/*    line-height: 1;*/
-/*}*/
 
 .hero h1 .sep {
     opacity: 0.35;
